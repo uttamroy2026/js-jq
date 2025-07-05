@@ -1,0 +1,7 @@
+/*js ex*/
+//ex1
+function contentChange(){
+document.getElementById ('cc'). innerHTML= "hellow";
+
+
+}

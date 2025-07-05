@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>js-jq</title>
+<!--css links-->
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet"  href="css/style.css">
+<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+  <div class="container">
+    <!--ex1-->
+<h1> click the button to change the content</h1>
+<button onclick="contentChange()" type="button" class="btn btn-dark">change content</button>
+<h3 id="cc">lorem ipsum dolar amet</h3>
+<hr>
+ <!--ex2-->
+<h1> click the button to show the date</h1>
+<button onclick="showDate()" type="button" class="btn btn-dark">show Date</button>
+<h3 id="sd">date-</h3>
+<hr>
+ <!--ex3-->
+<h1> click the button to show the date time</h1>
+<button onclick="showDateTime()" type="button" class="btn btn-dark">show Date Time</button>
+<h3 id="sdt"></h3>
+<hr>
+
+<!--ex4-->
+<h1> click the button to bulb on/off</h1>
+<button onclick="bulbOn()" type="button" class="btn btn-dark">turn on</button>
+<img id="img" src="images/off.gif" alt="">
+<button onclick="bulbOff()"type="button" class="btn btn-dark">turn off </button>
+<hr>
+<!--ex5-->
+<h1> click the button to change the style</h1>
+<button onclick="changeCss()" type="button" class="btn btn-dark">change css</button>
+<h3 id="css">lorem ipsum dolar amet</h3>
+<hr>
+<!--ex6-->
+<h1> click the button to show/hide text</h1>
+<button onclick="textShow()" type="button" class="btn btn-dark">show</button>
+<button onclick="textHide()" type="button" class="btn btn-dark">hide</button>
+<h3 id="sh">lorem ipsum dolar amet</h3>
+<hr>
+<h1> click the button to change the content</h1>
+<button onclick="contentChange()" type="button" class="btn btn-dark">change content</button>
+<h3 id="cc">lorem ipsum dolar amet</h3>
+<hr>
+
+<!--ex7-->
+<h1> click the button to change the result</h1>
+<button onclick="showResult()" type="button" class="btn btn-dark">show result</button>
+<h3 id="sr">results-</h3>
+<hr>
+
+<!--ex8-->
+<h1> click the button to change the result</h1>
+<button onclick="showResults()" type="button" class="btn btn-dark">show result</button>
+<h3 id="sa">results-</h3>
+<hr>
+    
+<!--toggle content-->
+<h2>click the button to show/hide the content</h2>
+<button class="btn btn-danger" onclick="toggleV('text')">toggle content</button>
+<div id="text">
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>
+</div>
+
+</div>
+
+
+
+<!--js links-->
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+
+</html>
